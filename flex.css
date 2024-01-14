@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+main{
+    margin: 0 auto;
+    width: 1000px;
+    padding: 24px;
+    border: 2px solid #F15F52;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.logo{
+    width: 200px;
+}
+.image{
+    width: 100%;
+}
+h3{
+    align-self: flex-end;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+}
+.enquiry{
+    align-self: center;
+}
+.personal-details{
+    margin-bottom: 60px;
+}
+.row{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 5px;
+    /* background-color: cadetblue; */
+}
+.col{
+    display: flex; 
+    /* background-color: crimson; */
+    flex: 1;
+    gap: 5px;
+   
+}
+.other{
+    flex:0.5 ;
+}
+
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    border-bottom: 2px dashed black
+}
+.col-11{
+    flex: 1.5;
+
+}
+.col-12{
+    flex:1 ;
+}
+
+.course-option{
+    font-size: 20px;
+    margin-bottom:20px ;
+}
+.row .col input[type="checkbox"] {
+    flex: 0 ;
+    scale: 2;
+    margin: 0 20px;
+    
+    
+}
+.centre-option{
+    font-size: 20px;
+    margin: 20px 0 ;
+}
+.about-us{
+    font-size: 20px;
+    margin: 20px 0 ;
+}
+.para{
+    font-size: 20px;
+}
+.mt{
+    margin-top: 20px;
+}
+.nodot{
+    border-bottom: none;
+}

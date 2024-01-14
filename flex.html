@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="./flex.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <img class="image" src="../images/cb_logo.png" alt="">
+            </div>
+            <h3>Student Application Form</h3>
+            <div class="enquiry">
+                <div><input type="checkbox" id="Enquiry"><label for="Enquiry">Enquiry</label> </div>
+                <div><input type="checkbox" id="Enrolled"><label for="Enrolled">Enrolled</label> </div>
+            </div>
+        </header>
+        <form >
+            <section class="personal-details">
+                <div class="row">
+                    <div class="col col-11">
+                        <label for="Name">Name</label> <input type="text" name="Name" id="Name">
+                    </div>
+                    <div class="col col-12">
+                        <label for="Date of Birth">Date of Birth </label><input type="datetime" name="Date of Birth" id="Date of Birth">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-21">
+                        <label for="Contact No">Contact No</label> <input type="tel" name="Contact No" id="Contact No">
+                    </div>
+                    <div class="col col-22">
+                        <label for="WhatsApp No">WhatsApp No </label><input type="tel" name="WhatsApp No" id="WhatsApp No">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-31">
+                        <label for="Email ID">Email ID </label><input type="email" name="Email" id="Email">
+                    </div>
+                    <div class="col col-32">
+                        <label for="Address">Address </label><input type="text" name="Address" id="Address">
+                    </div>
+                </div>
+                <div class="row"><input type="text"></div>
+                <div class="row">
+                    <div class="col col-51">
+                        <label for="City">City </label><input type="text" name="City" id="City">
+                    </div>
+                    <div class="col col-52">
+                        <label for="State">State</label> <input type="text" name="State" id="State">
+                    </div>
+                    <div class="col col-53">
+                        <label for="Pin Code">Pin Code </label><input type="text" name="Pin Code" id="Pin Code">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-61">
+                        <label for="Guardian Name">Guardian Name</label> <input type="text" name="Guardian Name" id="Guardian Name">
+                    </div>
+                    <div class="col col-62">
+                        <label for="Guardian's Contact No">Guardian's Contact No </label><input type="tel" name="Guardian's Contact No" id="Guardian's Contact No">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-71">
+                        <label for="College">College </label><input type="text" name="College" id="College">
+                    </div>
+                    <div class="col col-72">
+                        <label for="University">University </label><input type="text" name="University" id="University">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-81">
+                        <label for="Branch">Branch </label><input type="text" name="Branch" id="Branch">
+                    </div>
+                    <div class="col col-82">
+                        <label for="College Graduation Year">College Graduation Year</label> <input type="text" name="College Graduation Year" id="College Graduation Year">
+                    </div>
+                </div>
+            </section>
+            <section class="select-course">
+                <p class="course-option">Course Interested In (Please tick the appropriate one)</p>
+                <div class="row">
+                    <div class="col"><input type="checkbox" class="box-input"> <label for="">Launchpad (DSA using C++)</label></div>
+                    <div class="col"><input type="checkbox" class="box-input"><label for=""> Crux (DSA using Java)</label></div>
+                </div>
+                <div class="row">
+                    <div class="col"><input type="checkbox" class="box-input"><label for=""> Sampoorna (DSA + Web Dev + Comp.Prog + Inteview Prep. & etc.)</label></div>
+                </div>
+                <div class="row">
+                    <div class="col"><input type="checkbox" class="box-input"><label for=""> Algo++ (DSA & Algo in C++)</label></div>
+                </div>
+                <div class="row">
+                    <div class="col"><input type="checkbox" class="box-input"><label for=""> Algo.Java (DSA & Algo in Java)</label></div>
+                    <div class="col"><input type="checkbox" class="box-input"> <label for=""> Competitive Programming</label></div>
+                </div>
+                <div class="row">
+                    <div class="col"><input type="checkbox" class="box-input"><label for=""> Web Development with Node.JS</label></div>
+                    <div class="col"><input type="checkbox" class="box-input"><label for="">  Android App Development</label></div>
+                </div>
+                <div class="row">
+                    <div class="col"><input type="checkbox" class="box-input"><label for=""> Machine Learning & Data Science </label></div>
+                    <div class="col"><input type="checkbox" class="box-input"><label for=""> Web Developmentusing Python-Django</label></div>
+                </div>
+                <div class="row">
+                    <div class="col"><input type="checkbox" class="box-input"><label for="">Interview Prep. with C++</label></div>
+                    <div class="col"><input type="checkbox" class="box-input"><label for="">Interview Prep. with Java</label></div>
+                </div>
+                <div class="row">
+                    <div class="col"><input type="checkbox" class="box-input"> <label for="">System Design Live</label></div>
+                    <div class="col"><input type="checkbox" class="box-input"><label for=""> Other </label><input class="other" type="text"></div>
+                </div>
+                <p class="centre-option">Which Centre are you interested in? (Please tick the appropriate one)</p>
+                <div class="row">
+                    <div class="col"><input type="checkbox" class="box-input"><label for=""> Pitampura</label></div>
+                    <div class="col"><input type="checkbox" class="box-input"><label for=""> Noida</label></div>
+                </div>
+                <p class="about-us">How do you come to know about us?</p>
+                <div class="row">
+                    <div class="col"><label for=""> Friends</label><input type="checkbox" class="box-input"></div>
+                    <div class="col"><label for=""> Your Own Research</label><input type="checkbox" class="box-input"></div>
+                    <div class="col"><label for=""> Social Media</label><input type="checkbox" class="box-input"></div>
+                    <div class="col"><label for=""> Advertisement</label><input type="checkbox" class="box-input"></div>
+                </div>
+                <div class="row mt">
+                    <p class="col para">Are you an ex-VMC student? </p>
+                    <div class="col"><label for="">Yes</label><input type="checkbox"> </div>
+                    <div class="col"><label for="">No</label><input type="checkbox"></div>
+                </div>
+                <div class="row">
+                    <div class="col">If Yes, VMC Roll No. <input type="text"></div>
+                </div>
+                <div class="row">
+                    <div class="col">Name of Coding Blocks student who referred,if any <input type="text"></div>
+                </div>
+                <div class="row">
+                    <div class="col">Handled By-<input type="text" class="nodot"></div>
+                    <div class="col">Date- <input type="text" class="nodot"></div>
+                    <div class="col">Place-<input type="text" class="nodot"></div>
+                </div>
+                <div class="row">
+                    <div class="col">Ref. By- </div>
+                </div>
+            </section>
+            
+        </form>
+    </main>
+</body>
+</html>
